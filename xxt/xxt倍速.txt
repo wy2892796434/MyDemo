@@ -1,0 +1,11 @@
+document.querySelector("iframe").contentDocument.querySelector("iframe").contentDocument.querySelectorAll("video")
+
+第一步执行这个命令
+点击红框区域
+# 查看同级下的照片
+然后回到控制台
+执行
+let v_r = getEventListeners($0).ratechange[0].listener;$0.removeEventListener("ratechange",v_r);$0.playbackRate = 8;  //  8就是速率
+
+这个命令
+然后播放就好了
