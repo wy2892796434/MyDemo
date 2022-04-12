@@ -684,7 +684,7 @@ window.jb_domain = {
                 if(this.user_config.is_auto_answer){
                     this.fillAnswer();
                     this.system_config.already_select_index++;
-                    this.appendChildToInputDiv("正尝试重新选择选项","#99ff00");
+                    this.appendChildToInputDiv("正尝试重新选择选项", this.system_config.colors.system_warning);
                 }else{
                     this.appendChildToInputDiv("请重新选择选项,并点击执行按钮进行提交", this.system_config.colors.system_error);
                 }
